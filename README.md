@@ -1,12 +1,17 @@
-# terraform setup
+# terraform test
+
+## terraform setup
 
 [terraform download](https://www.terraform.io/downloads.html)
 
-## test scenario
-
-### aws default
+## terraform command
 
 ```sh
-terraform init
+cd '<directory>'
 
+terraform init # first once
+
+terraform apply
+
+terraform destroy
 ```
